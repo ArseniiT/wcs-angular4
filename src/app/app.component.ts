@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'CodeSandbox';
+  title = 'Bonjour !';
+  isAdmin = false;
+
+  toggleRole() {
+    this.isAdmin = !this.isAdmin;
+  }
 }
